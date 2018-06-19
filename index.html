@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabla avanzada</title>
+</head>
+<body>
+    <p>Análisis de ventas anuales</p>
+
+    <table border="1">
+        <!--Encabezado-->
+        <tr>
+            <th rowspan="2" scope="col">AÑO</th>
+            <th colspan="4" scope="col">Expansión de ventas</th>
+        </tr>
+
+        <tr>
+            <th scope="col">Producto A</th>
+            <th scope="col">Producto B</th>
+            <th scope="col">Producto C</th>
+            <th scope="col">Producto D</th>
+        </tr>
+    
+
+        <!--Linea 1-->
+        <tr>
+            <th sccope="row">N-3</th>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+
+        <!--Linea 2-->
+        <tr>
+            <th scope="row">N-2</th>
+            <td>3</td>
+            <td>5</td>
+            <td>8</td>
+            <td>4</td>
+        </tr>
+
+        <!--Linea 3-->
+        <tr>
+            <th scope="row">N-1</th>
+            <td>4</td>
+            <td>4</td>
+            <td>7</td>
+            <td>3</td>
+        </tr>
+
+        <!--Linea 4-->
+        <tr>
+            <th scope="row">N</th>
+            <td>5</td>
+            <td>7</td>
+            <td>6</td>
+            <td>2</td>
+        </tr>
+
+        <!--Encabezado 2-->
+        <tr>
+            <th rowspan="2" scope="col">AÑO</th>
+            <th>Producto A</th>
+            <th>Producto B</th>
+            <th>Producto C</th>
+            <th>Producto D</th>
+        </tr>
+
+        <tr>
+            <th colspan="4" scope="col">Expansión de ventas</th>
+        </tr>
+    </table>
+</body>
+</html>
